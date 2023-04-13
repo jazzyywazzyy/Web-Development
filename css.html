@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" type="text/css">
+        <title>CSS</title>
+    </head>
+    <div class="topnav">
+        <a class="home" href="./home.html">Home</a>
+        <a class="html" href="./html.html">HTML</a>
+        <a class="active" href="./css.html">CSS</a>
+    </div>
+    <body>
+        <h2>Basics of CSS</h2>
+        <h3>Semantics of CSS</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td></td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Selector</td>
+                    <td><strong>p</strong>{color: blue;}</td>
+                    <td>declares which element will be styled</td>
+                </tr>
+                <tr>
+                    <td>Declaration block</td>
+                    <td>p<strong>{color: blue;}</strong></td>
+                    <td>contains declarations</td>
+                </tr>
+                <tr>
+                    <td>Declaration</td>
+                    <td>p{<strong>color: blue;</strong>}</td>
+                    <td>value pair that applies style to an element</td>
+                </tr>
+                <tr>
+                    <td>Property</td>
+                    <td>p{<strong>color</strong>: blue;}</td>
+                    <td>signifies what visual characteristic of element is to be modified</td>
+                </tr>
+                <tr>
+                    <td>Value</td>
+                    <td>p{color:<strong>blue</strong>;}</td>
+                    <td>signifies value of property</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Linking CSS document to an HTML document:</h4>
+        <ul>
+            <li><strong>&ltlink&gt</strong> within the HTML document head</li>
+            <li><strong>href</strong> = "address / path of CSS document"</li>
+            <li><strong>rel</strong> = "stylesheet" (description of the relation)</li>
+            <li><strong>type</strong>= "text/css" (type of document)</li>
+        </ul>
+    <table>
+        <thead>
+            <tr>
+                <td>Link</td>
+                <td>Description</td>
+                <td>Example</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="code">.attribute{}</td>
+                <td>accesses class attributes</td>
+                <td>&ltp class = "name"&gt</td>
+            </tr>
+            <tr>
+                <td class="code">#attribute</td>
+                <td>accesses id attributes</td>
+                <td>&lth1 id="Introduction"&gt</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Order of specification</strong> (highest to lowest): IDs, class, type</p>
+    </body>  
+</html>

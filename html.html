@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" type="text/css">
+        <title>HTML</title>
+    </head>
+    <div class="topnav">
+        <a class="home" href="./home.html">Home</a>
+        <a class="active" href="./html.html">HTML</a>
+        <a class="css" href="./css.html">CSS</a>
+      </div>
+    <div id="HTML_basics">
+        <h2>HTML basics</h2>
+        <ul>
+          <li>!DOCTYPE html must be declared at the top of every HTML code.</li>
+          <li>The html tags must surround the whole HTML code</li>
+          <li>An opening tag is surrounded by <strong>&lt...&gt</strong></li>
+          <li>A closing tag is surrounded by <strong>&lt/...&gt</strong></li>
+          <li><strong>Caution!</strong> Not all tags have opening and closing tags</li>
+        </ul>
+        <h3>Setting up a document</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>HTML Tag</th>
+              <th>Description</th>
+            <tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="code">&lthead&gt</td>
+              <td>Surrounds the header of an HTML document. Contains metadata and link to CSS code</td>
+            </tr>
+            <tr>
+              <td class="code">&lttitle&gt</td>
+              <td>Goes inside the head to display the title of the page in the browser.</td>
+            </tr>
+            <tr>
+              <td class="code">&ltdiv&gt</td>
+              <td>Divides HTML code into sections to provide easier access using classes and ids</td>
+            </tr>
+            <tr>
+                <td class="code">&ltmain&gt</td>
+                <td>Encapsulates dominant content</td>
+            </tr>
+            <tr>
+              <td class="code">&lth1&gt</td>
+              <td>Tag for headed. h1 through h6 can be used. h1 being the largest, h6 the smallet header type</td>
+            </tr>
+            <tr>
+              <td class="code">&ltbr&gt</td>
+              <td>Break: inserts a new line.</td>
+            </tr>
+            <tr>
+              <td class="code">&ltp&gt</td>
+              <td>Surrounds a paragraph / block of text<td>
+            </tr>
+            <tr>
+                <td class="code">&ltfooter&gt</td>
+                <td>Contains page footer</td>
+            </tr>
+        </table>
+        <h3>Constructing a table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>HTML tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">&lttable&gt</td>
+                    <td>Table</td>
+                    <td>Creates table</td>
+                </tr>
+                <tr>
+                    <td class="code">&ltthead&gt</td>
+                    <td>Table head</td>
+                    <td>Rows defining column headings.</td>
+                </tr>
+                <tr>
+                    <td class="code">&lttbody&gt</td>
+                    <td>Table Body</td>
+                    <td>Set of rows containing actual table data.</td>
+                </tr>
+                <tr>¨
+                    <td class="code">&lttr&gt</td>
+                    <td>Table row</td>
+                    <td>Contains table row</td>
+                </tr>
+                <tr>
+                    <td class="code">&lttd&gt</td>
+                    <td>Table data</td>
+                    <td>Contains data in a table cell</td>
+                </tr>
+                <tr>
+                    <td class="code">&lttfoot&gt</td>
+                    <td>Table foot</td>
+                    <td>Contains table footer</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Insertion</h3>
+        <table>
+          <thead>
+            <th>Function</th>
+            <th>Example</th>
+            <th>Notes</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table_title">Insert link</td>
+              <td>&lt&a href="link"&gtTitle&gt&lt/a&gt</td>
+              <td>*to an external page</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>target = "_blank"</td>
+              <td>Opens link in a new tab</td>
+            </tr>
+            <tr>
+              <td class="table_title">Insert link</td>
+              <td>&lta href="./name.doctype&gtTitle&lt/a&gt</td>
+              <td>*to an internal page</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="subtitle">Media Insertion</td>
+            </tr>
+            <tr>
+              <td class="table_title">Insert an image</td>
+              <td>&ltimg src="image link"&gt</td>
+              <td>!!Requires no closing tag!!</td>
+            </tr>
+            <tr>
+              <td class="table_title">Insert a video</td>
+              <td>&ltvideo scr="link" width="..." height="..." controls&gt</td>
+              <td>width & height are entered in pixels</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>&ltvideo src="link" controls&gtError message&lt/video&gt</td>
+              <td>Controls include autoplay, loop, etc.</td>
+            </tr>
+            <tr>
+              <td class="table_title">Insert an audio</td>
+              <td>&ltaudio autoplay controls&gt</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>&#9&ltsource src="link" type="media type"&gt</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>&lt/audio&gt</td>
+            </tr>
+          </tbody>
+        </table>
+    
+</body>
+</html>
